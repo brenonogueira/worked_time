@@ -77,10 +77,6 @@ void initState() {
                     child: TextField(
                       controller: hoursToWork,
                       keyboardType: TextInputType.number,
-                      onChanged: (value) => {
-                        print(value),
-                        setState((() => {}))
-                      },
                       decoration: InputDecoration(
                         border: OutlineInputBorder(),
                         hintText: 'Enter a search term',
